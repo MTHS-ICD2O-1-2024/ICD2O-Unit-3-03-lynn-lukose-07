@@ -8,10 +8,11 @@
 "use strict"
 
 function calculateVolumeOfSphere() {
-  const radius = parseFloat(document.getElementById('radius').value)
-
-  const volumeOfSphere = (4 / 3) * (Math.PI) * (radius ** 3)
-
-  document.getElementById('volume').innerHTML = 'Volume is: ' + volumeOfSphere.toFixed(2) + 'mm³'
+  // input
+  const radius = parseFloat(document.getElementById("radius").value)
+  // process
+  const volumeOfSphere = (4 / 3) * Math.PI * radius ** 3
+  //output
+  document.getElementById("volume").innerHTML =
+    "Volume is: " + volumeOfSphere.toFixed(2) + "mm³"
 }
-

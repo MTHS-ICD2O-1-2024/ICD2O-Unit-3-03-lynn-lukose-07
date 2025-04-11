@@ -2,7 +2,7 @@
 //
 // Created by: Mr. Coxall
 // Updated by Lynn Lukose
-// Created on: Sep 2020
+// Created on: Apr 2025
 // This file contains the JS functions for index.html
 
 "use strict"
